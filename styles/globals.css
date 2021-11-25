@@ -24,28 +24,28 @@ p {
 
 @layer base {
   @font-face {
-    font-family: 'Avenir Next LT Pro';
+    font-family: "Avenir Next LT Pro";
     font-weight: 400;
-    src: local('Avenir Next LT Pro'),
-      url(/fonts/Avenir_Next_LT_Pro/AvenirNextLTPro-It.woff) format('woff');
+    src: local("Avenir Next LT Pro"),
+      url(/fonts/Avenir_Next_LT_Pro/AvenirNextLTPro-It.woff) format("woff");
   }
   @font-face {
-    font-family: 'Avenir Next LT Pro';
+    font-family: "Avenir Next LT Pro";
     font-weight: 200;
-    src: local('Avenir Next LT Pro'),
-      url(/fonts/Avenir_Next_LT_Pro/AvenirNextLTPro-Regular.woff) format('woff');
+    src: local("Avenir Next LT Pro"),
+      url(/fonts/Avenir_Next_LT_Pro/AvenirNextLTPro-Regular.woff) format("woff");
   }
   @font-face {
-    font-family: 'Avenir Next LT Pro';
+    font-family: "Avenir Next LT Pro";
     font-weight: 500;
-    src: local('Avenir Next LT Pro'),
-      url(/fonts/Avenir_Next_LT_Pro/AvenirNextLTPro-Demi.woff) format('woff');
+    src: local("Avenir Next LT Pro"),
+      url(/fonts/Avenir_Next_LT_Pro/AvenirNextLTPro-Demi.woff) format("woff");
   }
   @font-face {
-    font-family: 'Avenir Next LT Pro';
+    font-family: "Avenir Next LT Pro";
     font-weight: 700;
-    src: local('Avenir Next LT Pro'),
-      url(/fonts/Avenir_Next_LT_Pro/AvenirNextLTPro-Bold.woff) format('woff');
+    src: local("Avenir Next LT Pro"),
+      url(/fonts/Avenir_Next_LT_Pro/AvenirNextLTPro-Bold.woff) format("woff");
   }
 }
 
@@ -111,4 +111,8 @@ p {
   /* background-color: #e5e7eb; */
   border-color: #636363;
   color: #636363;
+}
+
+.mobile-menu-bg {
+  background: linear-gradient(175.4deg, #f9a058 66.15%, #fdeaa7 128.46%);
 }

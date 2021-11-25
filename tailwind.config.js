@@ -7,22 +7,22 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     screens: {
-      'sm': '640px',
+      sm: "640px",
       // => @media (min-width: 640px) { ... }
 
-      'md': '768px',
+      md: "768px",
       // => @media (min-width: 768px) { ... }
 
-      'base': '1080px',
+      base: "1080px",
       // => @media (min-width: 768px) { ... }
 
-      'lg': '1480px',
+      lg: "1480px",
       // => @media (min-width: 1380px) { ... }
 
-      'xl': '1840px',
+      xl: "1840px",
       // => @media (min-width: 1840px) { ... }
 
-      '2xl': '2560px',
+      "2xl": "2560px",
       // => @media (min-width: 1536px) { ... }
     },
     extend: {
@@ -57,9 +57,7 @@ module.exports = {
         ctaYellowLight: "#FFD324",
       },
       backgroundImage: (theme) => ({
-        "hero-pattern": "url('/images/landingBG.svg')",
-        "beneficiary-pattern":"url('/images/beneficiaryBg.svg')",
-        "mobile-pattern":"url('/images/mobileBg.svg')"
+        footer: "url('/images/footer-bg.svg')",
       }),
       fontFamily: {
         landing: ["Avenir Next LT Pro", "sans-serif"],
